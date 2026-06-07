@@ -1,0 +1,6 @@
+# Quantization modifier configuration
+modifiers:
+  - GPTQModifier:
+      scheme: "W4A16"
+      targets: "Linear"
+      ignore: ["lm_head"]
