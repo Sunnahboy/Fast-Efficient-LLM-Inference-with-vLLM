@@ -1,0 +1,13 @@
+# Ignore model weights and local data
+models/
+data/
+
+# Ignore Python environments and build tools
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Ignore local configuration and secrets
+.env
