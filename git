@@ -1,0 +1,6 @@
+
+feat(quantization): optimize GPTQ recipe and download pipeline for Qwen-0.6B
+
+- Update notebooks/01_llm_compressor.ipynb to configure W4A16 GPTQ recipe
+- Apply memory offloading and reduce calibration token length to prevent WSL resource exhaustion
+- Adjust scripts/download_model.py to align with the optimized model configuration
